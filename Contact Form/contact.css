@@ -1,0 +1,104 @@
+
+/* Globals */
+*{
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+body{
+  font-family: helvetica;
+  text-align: center;
+  background-color: rgb(121, 121, 121);
+}
+
+.container{
+  width: 94%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* NavBar */
+.navbar{
+  height: 85px;
+  background-color: rgb(1, 9, 36);
+  color: #ffffff;
+  border-bottom: 1px outset rgb(0, 0, 0);
+}
+
+.logo h1{
+  float: left;
+  margin: .5em 0 0 0;
+  font-weight: 775;
+  font-size: 220%;
+}
+
+.logo a{
+  text-decoration: none;
+}
+
+.navbar ul{
+  float: right;
+  list-style: none;
+  margin: 2.2em 0 0 0;
+}
+
+.navbar ul li{
+  float: left;
+  padding: 0 0 10px 20px;
+}
+
+.navbar a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar a:hover{
+  border-bottom: .3em solid rgb(255, 255, 255);
+}
+
+
+
+
+header h1{
+	color: rgb(1, 9, 36);
+	margin-top: 2em;
+	font-weight: 800;
+	font-size:240%;
+	text-decoration: underline;
+	text-decoration-color:  rgb(1, 9, 36);
+	text-shadow: 2px 2px azure;
+}
+
+form	{margin-top: 2em;
+	transition: all 1.6s ease;}
+
+form .submit	{
+	background: #000066;
+	color: rgb(1, 9, 36);
+}
+
+.form-control	{width: 30%;
+		color: 000000;
+		font-size: 18px;
+		margin-right: 16px;}
+
+.form-control input	{outline:none;}
+
+.form-control textarea{
+	outline: none;
+	}
+textarea{
+	height: 6em;
+	resize: none;}
+
+
+input	{height: 2em;
+	cursor: pointer;
+	margin-bottom:8px;}
+
+.contact-form input	{outline:none;}
+
+#contact-form textarea	{outline: none;}
